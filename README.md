@@ -18,7 +18,7 @@ let myObject = {
 const TEMPLATE = {
     firstname: 'John',
     lastname: 'Doe',
-    age: 18,
+    age: 18
 }
 // There is two way of doing it. Since it it a recursive function you can pass
 // a structured object as third parameter
@@ -27,6 +27,16 @@ let output = thisOrThat(myObject, TEMPLATE);
 //      Second
 let output = {};
 output = thisOrThat(myObject, TEMPLATE, output);
+
+console.log(output);
+/*
+    Returns
+    {
+        firstname: 'Bob',
+        lastname: 'Doe',
+        age: 20
+    };
+ */
 ```
 ## Conclusion
 
