@@ -1,6 +1,6 @@
 {
   "name": "thisorthat",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "JavaScript library to merge custom object with default values",
   "main": "lib/index.js",
   "author": "Nicolas Boisvert (nicklay@me.com)",
